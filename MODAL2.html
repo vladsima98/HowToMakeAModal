@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <title>Modal2 Vlad Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="MODAL2 Vlad Project">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="photo.jpeg">
+    <meta property="og:url" content="http://modal.html">
+    <meta property="og:description" content="Little Lemon is a restaurant that serves fresh and healthy food.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="MODAL">
+
+    
+    <link rel="stylesheet" type="text/css" href="../css/MODAL2.css">
+</head>
+
+<body>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Set target groups</h2>
+    </div>
+
+    <div class="modal-body">
+
+        <div class="firstsection">
+            <label class="checkbox-container">
+                <input type="checkbox" id="checkAll">
+                <span class="checkmark1"></span>All users
+            </label>
+        </div>
+
+
+        <div class="secondsection"> 
+            <div class="first-col">
+
+              <div class="department">
+                <label class="checkbox-container">
+                  <input type="checkbox" id="checkDep"/>
+                  <span class="checkmark1"></span>
+                  Department
+                </label>
+              </div>
+          
+              <div class="row1">
+                <label class="checkbox-container">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  Development
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    Product
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    Sales
+                </label>
+                <label class="checkbox-container">
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                      Marketing
+                </label> 
+                <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    HR
+                </label>
+              </div>
+
+            </div>
+          
+            <div class="second-col">
+
+              <div class="location">
+                <label class="checkbox-container">
+                  <input type="checkbox" id="checkLoc"/>
+                  <span class="checkmark1" ></span>
+                  Location
+                </label>
+                
+              </div>
+          
+              <div class="row2">
+                <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    Denmark
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    Romania
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    Norway
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                    America
+                </label> 
+              </div>
+
+            </div>
+
+          </div>
+
+
+    </div>
+
+
+    <div class="modal-footer">
+        <button class="xBtn" id="xBtn">Cancel</button>
+        <button class="doneBtn" id="doneBtn">Done</button>
+    </div>
+  </div>
+</div>
+
+<script src="../js/MODAL.js"></script>
+
+</body>
+
+</html>
